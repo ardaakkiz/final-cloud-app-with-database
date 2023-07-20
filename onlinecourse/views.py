@@ -179,7 +179,6 @@ def show_exam_result(request, course_id, submission_id):
     # This helps in displaying the content related to the lesson only
     context = {
         "course" : course,
-        "lesson" : lesson,
         "grade" : total_score,
         "choices" : choice_set
     }
